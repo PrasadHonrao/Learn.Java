@@ -5,24 +5,29 @@ public class Main {
 		// WHILE
 		System.out.println("WHILE");
 		while (number <= 10) {
-			System.out.println(number);
+			System.out.print(number);
 			number++;
 		}
+		System.out.println();
 
 		// DO...WHILE
 		System.out.println("DO...WHILE");
 		number = 1;
 		do {
-			System.out.println(number);
+			System.out.print(number);
 			number++;
 		} while (number <= 10);
+		System.out.println();
+
 
 		// FOR
 		System.out.println("FOR");
 		number = 1;
 		for (number = 1; number <= 10; number++) {
-			System.out.println(number);
+			System.out.print(number);
 		}
+		System.out.println();
+
 
 		// FOR EACH
 		System.out.println("FOR...EACH");

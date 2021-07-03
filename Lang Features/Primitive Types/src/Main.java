@@ -1,6 +1,7 @@
 public class Main {
 
 	public static void main(String[] args) {
+
 		// 1. INTEGER TYPES - byte (8), short (16), int (32), long (64)
 		System.out.println("Whole Number / Integer Types");
 		byte byteValue = 127;
@@ -18,15 +19,14 @@ public class Main {
 		System.out.println("Integer Min Value : " + Integer.MIN_VALUE);
 		System.out.println("Integer Max Value : " + Integer.MAX_VALUE);
 
-		long longValue = 22222235654677L; // Note L at the end which denotes
-											// long value
+		long longValue = 22222235654677L; // Note L at the end which denotes long value
 		System.out.println(longValue);
 		System.out.println("Long Min Value : " + Long.MIN_VALUE);
 		System.out.println("Long Max Value : " + Long.MAX_VALUE);
 
 		// 2. FLOATING POINT TYPE - float (32), double (64)
 		System.out.println("\nFloating Point Types");
-		float pi = 1.345f; // Note f at the end
+		float pi = 1.345f; // Note f at the end. If not specified its considered as double
 		System.out.println(pi);
 		System.out.println("Float Min Value : " + Float.MIN_VALUE);
 		System.out.println("Float Max Value : " + Float.MAX_VALUE);
@@ -45,6 +45,9 @@ public class Main {
 
 		char accentedU = '\u00DA';
 		System.out.println("Unicode Accented U : " + accentedU);
+
+		char sheen = '\u0634';
+		System.out.println("Arabic sheen : " + sheen);
 
 		// 4. BOOLEAN
 		System.out.println("\nBoolean Type");

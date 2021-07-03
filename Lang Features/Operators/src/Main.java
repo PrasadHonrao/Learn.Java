@@ -23,11 +23,15 @@ public class Main {
         secondNumber = secondNumber + 1;
         System.out.println(firstNumber != secondNumber);
 
-        // TURNARY
+        // TURNARY OPERATORS ++, --, ?
         firstNumber++;
         secondNumber++;
         System.out.println(firstNumber);
         System.out.println(secondNumber);
+
+        firstNumber = 100;
+        var result = firstNumber <= 10 ? true:false;
+        System.out.println(result);
 
         // LOGICAL OPERATORS
         if (firstNumber > 10 & secondNumber > 10) {
